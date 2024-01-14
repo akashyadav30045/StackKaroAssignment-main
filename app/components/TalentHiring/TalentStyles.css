@@ -1,0 +1,240 @@
+@media screen and (max-width: 600px) { 
+.heading-7{
+width: 343px;
+height: 46px;
+top: 125px;
+left: 10%;
+position: relative;
+font-family: Outfit;
+font-size: 18px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(230, 143, 80, 1);
+}
+.Buttons-3{
+    width: 343px;
+height: 64px;
+top: 130px;
+position: relative;
+left: 9%;
+font-family: Outfit;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: rgba(54, 69, 79, 1);
+} 
+.cards{
+    position: relative;
+    top: 160px;
+    display: flex;
+    margin-left: 70px;
+}
+.card-5{
+    width: 900px;
+    position: relative;
+    height: 224px;
+    scroll-snap-align: start;
+    margin: 3px;
+    left: 80px;
+    border-radius: 25px;
+    
+    background-color: #FFFEFE;
+    border: 1px solid rgba(101, 101, 101, 0.25);
+    box-shadow: 0px 8px 10px 0px rgba(101, 101, 101, 0.25); 
+    }
+    .photo-5{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+  }
+    .website-3{
+        width: 236px;
+        height: 20px;
+        /* top: 1400px; */
+        bottom: 1700px;
+        /* left: 40px; */
+        position: absolute;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 2016px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(10, 86, 241, 1);  
+    }
+    .card-info-2{
+        width: 250px;
+        height: 48px;
+        position: relative;
+        /* left: 40px; */
+        top:35px;
+        font-family: Outfit;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 16.38px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #36454F;
+    } 
+    .arrow{
+        display: none;
+    
+    }
+    .cards{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+         overflow-x: scroll;
+         overflow-y: hidden;
+        scroll-snap-type: y mandatory;
+        right: 50px;
+        position: relative;
+    }
+    .daddy1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .card-info-3{
+        width: 250px;
+        height: 48px;
+        position: relative;
+        left: 10px;
+        top: 30px;
+        font-family: Outfit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16.38px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #36454F;
+    } 
+    
+}
+
+
+@media (min-width:768px) {
+.wrapper-7{
+    position: relative;
+    top:0px;
+}
+.Buttons-3{
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+    left: 170px;
+    color: #36454F;
+}
+.heading-7{
+    max-width: 1000px;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* width: 754px; */
+    height: 50px;
+    top: 17px;
+    left: 343px;
+    font-family: Outfit;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #E68F50;
+}
+.card-5{
+width: 400px;
+position: relative;
+height: 330px;
+left: 80px;
+border-radius: 25px;
+
+background-color: #FFFEFE;
+border: 1px solid rgba(101, 101, 101, 0.25);
+box-shadow: 0px 8px 10px 0px rgba(101, 101, 101, 0.25);
+
+}
+.photo-5{
+position: relative;
+width: 75px;
+height: 75px;
+top: 10px;
+
+}
+.website-3{
+    width: 325px;
+    height: 28px;
+    top: 25px;
+    /* left: 40px; */
+    position: relative;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(10, 86, 241, 1);
+
+    width: 320px;   
+}
+.card-info-2{
+    width: 320px;
+    height: 112px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+    font-family: Outfit;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #36454F;
+} 
+.arrow{
+width: 50px;
+height: 50px;
+left: 15px;
+top: 50px;
+position: relative;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.daddy1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-info-3{
+    width: 320px;
+    height: 112px;
+    position: relative;
+    left: 40px;
+    top: 35px;
+    font-family: Outfit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #36454F;
+} 
+}
