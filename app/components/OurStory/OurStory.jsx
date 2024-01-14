@@ -6,9 +6,9 @@ import img from "./second.png"
 
 const OurStory = () => {
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <div className="buttons m-5 ">
-        In the realm of digital solutions, we offer expertise in
+        In the realm of digital solutions, we offer expertise 
       </div>
       <div className="services flex flex-wrap-reverse p-4">
           <span className="service rounded-lg  p-[2px]flex text-center">Website Developmen</span>
@@ -35,11 +35,11 @@ const OurStory = () => {
              Our active status and an authorized share capital of Rs 10.00 lac are a source of pride.
             </div>
             <div>
-                <Image className="cost h-[70px] w-[300px] mt-2" src={img}/>
+                <Image className="cost mx-auto h-[70px] w-[300px] " src={img}/>
             </div>
           </div>
         </div>
-        <div className="content-right">
+        <div className="content-right ">
           <Image  className="image-8" src={Right} alt="Right-Image" />
         </div>
       </div>
